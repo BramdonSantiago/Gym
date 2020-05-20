@@ -1,0 +1,204 @@
+@media (max-width: 800px){
+	.menu-icon{
+		display: block;
+	}
+
+	header nav{
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		background: black;
+		left: 0;
+		display: none;
+	}
+
+	header nav ul{
+		display: block;
+
+	}
+
+	header nav ul li{
+		margin-bottom: 20px;
+	}
+
+	header nav ul li a{
+		color: white;
+	}
+
+	#intro{
+		flex-direction: column;
+	}
+
+	#intro .izquierda{
+		width: 89%;
+		padding: 40px 20px;
+	}
+
+	#intro .izquierda p{
+    	letter-spacing: 9px;
+    }
+
+    #intro h1{
+    	font-size: 30px;
+    }
+
+    #intro .derecha{
+    	width: 100%;
+    }
+
+    #intro .boton{
+    	font-size: 14px;
+    }
+
+    #intro{
+    	height: 500px;
+    }
+
+    #programas .cero {
+    	font-size: 60px;
+    }
+
+    #programas .ini{
+   	 	letter-spacing: 15px;
+	}
+
+	#programas h2{
+   	 	font-size: 35px;
+   	}
+
+
+	.boton2{
+	    font-size: 14px;
+	    letter-spacing: 3px;
+	}
+
+	.contenedor-programas{
+		flex-direction: column;
+	}
+
+	.contenedor-programas .programa{
+		padding: 45px 30px;
+	}
+
+	#programas #dos{
+		top: 0;
+	}
+
+	#section-video{
+		padding-top: 45px;
+	}
+	
+	video{
+		width: 320px;
+		height: 200px;
+	}
+
+	/*#section-video .botones{
+	    top: 15%;
+	    left: 35%;
+	}*/
+
+	#section-video i{
+    	font-size: 65px;
+	}
+
+	#join{
+		flex-direction: column;
+	}
+
+	#join .izquierda{
+		width: 100%;
+		margin-left: 0;	
+	}
+	
+	#join .izquierda a{
+		left: 25%;
+	}
+
+	#join .derecha{
+		width: 100%;
+	}
+
+	#join #uno{
+		top: 35%; 
+		left: 30%;
+	}
+
+	#join #dos{
+    	top: 0px;
+    	left: 0;
+	}
+
+	#join img{
+		width: 60%;
+	}
+
+	#join #tres{
+		left: 49%;
+		top: 110px;
+		width: 50%;
+	}
+
+	#testimonios{
+    	padding-top: 400px;
+	}
+
+	#testimonios h2 {
+   		font-size: 30px;
+   	}
+
+   	#testimonios .testimonios{
+   		flex-direction: column;
+   	}
+
+   	#testimonios .testimonio{
+   		width: 100%;
+   	}
+	
+	#testimonios .foto{
+		width: 700px;
+	}
+
+	#contacto{
+		flex-direction: column;
+	}
+
+	#contacto .izquierda{
+		width: 80%;
+		padding: 25px;
+		text-align: center;
+	}
+
+	#contacto .izquierda p{
+		letter-spacing: 9px;
+	}
+
+	#contacto h2{
+		font-size: 30px;
+	}
+
+	input[type="submit"]{
+		float: none;
+	}
+
+	#contacto .derecha{
+   		padding: 5px 18px 50px 17px;
+    	width: 90%;
+    	text-align: center;
+	}
+
+	.gym-hours{
+		padding: 15px;
+	}
+
+	.gym-hours h3, .pass h3{
+		letter-spacing: 2px;
+		font-size: 22px;
+		margin: 10px;
+	}
+
+	.pass{
+		padding: 13px;
+	}
+
+}

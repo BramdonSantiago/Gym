@@ -1,0 +1,461 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+	max-width: 1300px;
+	width: 90%;
+	margin: auto;
+}
+
+.menu{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background: white;
+	z-index: 9999;
+	transition: .3s;
+}
+
+.menu-principal{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav ul{
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li{
+	padding: 0 20px;
+
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+header .logo{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+/* Estilos para la sección intro */
+
+#intro{
+	background: url(../img/intro.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Oswald';
+	display: flex;
+	margin-top: 75px;
+}
+
+#intro .izquierda{
+	background-color: rgba(255, 255, 255, .8);
+	width: 66%;
+	padding: 65px 75px;
+}
+
+#intro .derecha{
+	width: 57%;
+	color: white;
+	height: 503px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0)80%, #fff 80%);
+}
+
+#intro .contenido{
+	background: red;
+	padding: 1px 50px 40px 50px;
+}
+
+#intro .izquierda p{
+	font-size: 14px;
+	letter-spacing: 18px;
+}
+
+#intro h1{
+	font-size: 66px;
+	letter-spacing: 19px;
+	font-weight: 100;
+}
+
+#intro .boton{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding-bottom: 13px;
+	padding: 0 18px 13px 10px;
+	letter-spacing: 7px;
+	border-bottom: 2px solid red;
+}
+
+.boton2{
+	color: white;
+	border: 1px solid white;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 7px;
+}
+
+#intro .derecha p{
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+
+#programas{
+	padding-top: 90px;
+	text-align: center;
+	font-family: 'Oswald';
+}
+
+.rojo{
+	color: red;
+}
+
+
+#programas .cero{
+	font-size: 80px;
+	margin-bottom: 0;
+}
+
+#programas h2{
+	font-size: 60px;
+	font-weight: 100;
+	letter-spacing: 15px;
+	margin: 0;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#programas .ini{
+	letter-spacing: 20px;
+	font-size: 15px;
+}
+
+#programas p{
+	font-family: 'Open Sans';
+	color: gray;
+	font-size: 15px;
+	margin: auto;
+	line-height: 30px;
+	width: 75%;
+}
+
+#programas .boton2, #testimonios .boton2{
+	color: black;
+	border-bottom: 2px solid red;
+	margin-top: 40px;
+}
+
+.contenedor-programas{
+	display: flex;
+	margin-top: 50px;
+	width: 90%;
+	margin: auto;
+}
+
+#programas #uno{
+	background: #2a2e3f;
+	color: white;
+}
+
+#programas #dos{
+	background: red;
+	color: white;
+	position: relative;
+	top: 120px;
+}
+
+#programas #tres, #programas #tres p{
+	background: white;
+	color: black;
+}
+
+#uno p, #dos p, #tres p{
+	color: white;
+	width: 100%;
+	text-align: left;
+}
+
+#programas h3{
+	font-size: 25px;
+	letter-spacing: 4px;
+	margin: 0;
+	text-align: left;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.programa{
+	padding: 45px 47px;
+	box-shadow: 50px 70px 120px -42px rgba(0, 0, 0, .3);
+	margin-top: 60px;
+}
+
+/* Estilos para la sección video */
+
+#section-video{
+	text-align: center;
+	padding-top: 90px;
+}
+
+#section-video .contenedor{
+	position: relative;
+}
+
+#section-video .botones{
+	position: absolute;
+	top: 35%;
+	left: 45%;
+}
+
+#section-video i{
+	font-size: 125px;
+	color: white;
+}
+
+#section-video button{
+	border: 0;
+	background: none;
+}
+
+/* Estilos para la seccción de Join */
+
+#join{
+	display: flex;
+	padding-top: 90px;
+}
+
+#join .izquierda{
+	width: 49%;
+	background: red;
+	margin-left: 100px;
+	height: 340px;
+	position: relative;
+}
+
+#join img{
+	width: 47%;
+}
+
+#join .derecha{
+	width: 53%;
+	position: relative;
+	background: url(../img/join-back.jpg);
+	background-size: cover;
+}
+
+#join .izquierda a{
+	color: white;
+	border: 1px solid white;
+	padding: 15px 24px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Oswald';
+	position: absolute;
+	top: 8%;
+	left: 32%;
+	letter-spacing: 5px;
+}
+
+#join #uno{
+	position: absolute;
+	top: 24%;
+	left: 56%;
+	z-index: 1;
+	width: 44%;
+}
+
+#join #dos{
+	position: absolute;
+	top: -44px;
+}
+
+#join #tres{
+	position: absolute;
+	left: 47%;
+	top: 24%;
+	width: 44%;
+}
+
+/* Estilos para la sección de testimonios */
+
+#testimonios{
+	padding-top: 90px;
+	text-align: center;
+}
+
+span.comillas {
+	font-size: 120px;
+	color: red;
+}
+
+#testimonios h2{
+	font-size: 63px;
+	font-weight: 100;
+	letter-spacing: 15px;
+	margin: 0;
+	font-family: 'Oswald';
+}
+
+#testimonios a{
+	font-family: 'Oswald';
+}
+
+#testimonios .testimonios{
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}
+
+#testimonios .testimonio{
+	width: 40%;
+	margin-right: 40px;
+}
+
+#testimonios .contenido{
+	display: flex;
+}
+
+#testimonios .foto{
+	background: url(../img/testimonial.jpg);
+	background-size: cover;
+	width: 450px;
+	height: 85px;
+	border-radius: 100%;
+	margin-top: 22px;
+	background-position: center;
+}
+
+.testimonio p{
+	color: gray;
+	font-size: 15px;
+	text-align: left;
+	line-height: 30px;
+	margin-left: 25px;
+	font-family: 'Open Sans';
+}
+
+p.nombre{
+	margin-left: 120px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Eestilos para el footer */
+
+#contacto{
+	background: url(../img/contacto.jpg);
+	font-family: 'Oswald';
+	color: white;
+	display: flex;
+}
+
+#contacto .izquierda{
+	padding: 100px;
+	width: 43%;
+}
+
+#contacto .izquierda p{
+	font-size: 14px;
+	letter-spacing: 20px;
+}
+
+#contacto h2{
+	font-size: 65px;
+	font-weight: 100;
+	letter-spacing: 20px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], textarea{
+	width: 100%;
+	border: 0;
+	background: none;
+	border-bottom: 1px solid white;
+	padding-bottom: 20px;
+	font-size: 16px;
+	margin-bottom: 35px;
+	font-family: 'Oswald';
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	outline: none;
+	color: white;
+}
+
+::placeholder{
+	color: #D8D8D8;
+}
+
+input[type="submit"]{
+	background: none;
+	border: 1px solid white;
+	padding: 20px 30px;
+	color: white;
+	font-size: 17px;
+	font-family: 'Oswald';
+	letter-spacing: 5px;
+	float: right;
+}
+
+#contacto .derecha{
+	background: red;
+	align-self: flex-end;
+	padding: 5px 50px 50px 50px;
+	width: 36%;
+}
+
+.gym-hours{
+	box-shadow: 0 70px 120px -42px rgba(0, 0, 0, .3);
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.gym-hours h3, .pass h3{
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+
+.gym-hours ul{
+	padding: 0;
+	list-style: none;
+}
+
+.gym-hours ul li{
+	font-family: 'Open Sans';
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.pass{
+	background: white;
+	color: black;
+	padding: 30px;
+}
+
+#contacto .boton2{
+	border: 1px solid red;
+	color: black;
+	margin-top: 10px;
+}
+
+.menu-icon{
+	width: 32px;
+	height: 32px;
+	display: none;
+}
+
+
+
+
+
